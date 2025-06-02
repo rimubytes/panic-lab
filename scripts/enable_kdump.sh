@@ -9,5 +9,5 @@ echo "[*] Enabling kdump..."
 sudo systemctl enable kdump
 sudo systemctl start kdump
 
-echo "[*] kdump status:"
+echo "[*] kdump status: "
 systemctl status kdump
